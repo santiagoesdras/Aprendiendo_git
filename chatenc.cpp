@@ -20,6 +20,7 @@ int main() {
   inet_pton(AF_INET, "127.0.0.1", &server.sin_addr);
 
   connect(fd, (struct sockaddr *)&server, sizeof(server));
+  cout<"Hola mundo">;
 
   while(1) {
     printf("Enter a message: ");
